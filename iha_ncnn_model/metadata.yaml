@@ -1,0 +1,18 @@
+description: Ultralytics iha model trained on /content/{HOME}/datasets/Target-UAV-6/data.yaml
+author: Ultralytics
+date: '2025-07-10T22:24:34.300104'
+version: 8.3.163
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: target
+args:
+  batch: 1
+  half: false
+channels: 3

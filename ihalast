@@ -1,0 +1,7 @@
+import cv2
+from ultralytics import YOLO
+
+model = YOLO("iha_ncnn_model")
+
+model.export(format="ncnn", imgsz=320)
+result = model.predict(frame, imgsz = 320) 
