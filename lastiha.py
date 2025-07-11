@@ -77,7 +77,7 @@ def test_yolo_on_video(model_path, video_path, output_path="ihavideo.mp4", confi
 # --- KULLANIM ÖRNEĞİ ---
 if __name__ == "__main__":
     # Kendi model dosyanızın yolu (örn: 'yolov8n.pt' veya kendi eğitilmiş modeliniz: 'runs/detect/train/weights/best.pt')
-    yolo_model_path = 'iha_ncnn_model'
+    yolo_model_path = 'ihalow_ncnn_model'
 
     # Test etmek istediğiniz video dosyasının yolu
     input_video_file = 'ihavideo.mp4' # Örn: Masaüstünüzde 'input.mp4' adında bir video dosyası olmalı

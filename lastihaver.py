@@ -92,7 +92,7 @@ def test_yolo_on_video(model_path, video_path, output_path="output_video.avi", c
 # --- KULLANIM ÖRNEĞİ ---
 if __name__ == "__main__":
     # Kendi model dosyanızın yolu
-    yolo_model_path = 'iha.pt'
+    yolo_model_path = 'ihalow_ncnn_model'
 
     # Test etmek istediğiniz video dosyasının yolu
     input_video_file = 'ihavideo.mp4'
